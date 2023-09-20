@@ -23,3 +23,7 @@ output "database_subnet_ids" {
 output "nat_gateway_id" {
   value = aws_subnet.nat_gateway_id.id
 }
+
+output "nat_gateway_id" {
+  value = aws_subnet.nat_gateway_id.id
+}
