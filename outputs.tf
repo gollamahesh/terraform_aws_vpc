@@ -19,3 +19,7 @@ output "private_subnet_ids" {
 output "database_subnet_ids" {
   value = aws_subnet.database[*].id
 }
+
+output "nat_gateway_id" {
+  value = aws_subnet.nat_gateway_id.id
+}
